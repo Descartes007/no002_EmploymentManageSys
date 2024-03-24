@@ -9,8 +9,9 @@ spring:
   #数据库连接配置
   datasource:
     url: jdbc:mysql://localhost:3306/no002_employment?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useInformationSchema=true
+    # 你的账号和密码
     username: root
-    password: 1025
+    password: 123456
 
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
